@@ -219,7 +219,7 @@ export function Exercise() {
 
   return (
     <div>
-      <h1>Functions-extended</h1>
+      <h1>Functions-extendeds</h1>
     </div>
   );
 }
