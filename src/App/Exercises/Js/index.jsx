@@ -47,9 +47,7 @@ export function JsExerciseItem() {
   return (
     <div className="exercise-item-layout">
       <ExerciseItemHeader data={exerciseRouteData} />
-
       <hr />
-
       <div className="exercise-item-content">{element}</div>
     </div>
   );

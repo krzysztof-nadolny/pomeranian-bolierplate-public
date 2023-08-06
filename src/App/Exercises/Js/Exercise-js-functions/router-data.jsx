@@ -1,7 +1,7 @@
 import { Exercise } from './index';
 
 export const blockRouterMetaData = {
-  path: 'js-functions-extended',
+  path: 'js-functions',
   date: null,
   linkLabel: 'Funkcje w JS',
   blockNo: 6,
