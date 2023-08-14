@@ -31,6 +31,8 @@ export const HitTheMole = () => {
       setIsGameStarted(false);
       setTime(initialTime);
     }
+
+    
   }, [time, initialTime]);
 
   return (

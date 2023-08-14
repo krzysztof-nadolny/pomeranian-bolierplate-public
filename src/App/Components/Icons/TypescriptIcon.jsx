@@ -7,7 +7,7 @@ export function TypescriptIcon({ className = '' }) {
       viewBox="0 0 65 64"
       fill="none"
     >
-      <g clip-path="url(#clip0_5298_14584)">
+      <g clipPath="url(#clip0_5298_14584)">
         <path
           d="M59.2576 0H5.25758C2.49616 0 0.257584 2.23858 0.257584 5V59C0.257584 61.7614 2.49616 64 5.25758 64H59.2576C62.019 64 64.2576 61.7614 64.2576 59V5C64.2576 2.23858 62.019 0 59.2576 0Z"
           fill="black"

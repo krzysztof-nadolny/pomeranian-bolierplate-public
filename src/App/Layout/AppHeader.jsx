@@ -8,7 +8,7 @@ import { ArrowDownIcon } from '../Components/Icons/ArrowDownIcon';
 
 export function AppHeader() {
   function handleClickButton(message) {
-    console.log(message);
+    // console.log(message);
   }
   return (
     <header>

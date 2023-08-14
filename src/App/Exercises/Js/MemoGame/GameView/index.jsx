@@ -1,17 +1,22 @@
 import { useEffect } from 'react';
 import { Button } from '../Button';
 import { Menu } from '../Menu';
+import './index.css';
 
 export const GameView = ({
   initialTime,
   time,
   setTime,
-  score,
+  setElements,
   setGameStarted,
   setGameStopped,
+  setScore,
+  score,
 }) => {
   const handleStopClick = () => {
-    setTime(initialTime);
+    setScore(0);
+    setTime(60);
+    setElements(8);
     setGameStarted(false);
     setGameStopped(true);
   };
@@ -22,25 +27,24 @@ export const GameView = ({
     }, 1000);
 
     if (time === 0) {
+      setGameStarted(false);
       setGameStopped(true);
-      console.log("stops")
+      console.log('stops');
     }
 
     return () => clearTimeout(timeoutId);
   }, [time, setTime, setGameStopped]);
 
   return (
-    <div className="htm-menu">
-      <Menu label="Czas do końca">
+    <div className="memo-game-view">
+      <Menu label="CZAS GRY">
         <Button>{time}</Button>
       </Menu>
-
-      <Menu label="Wynik">
+      <Menu label="LICZBA RUCHÓW">
         <Button>{score}</Button>
       </Menu>
-
-      <Menu label="Przyciski sterujące">
-        <Button onClick={handleStopClick}>Stop</Button>
+      <Menu label="PRZYCISKI STERUJĄCE">
+        <Button onClick={handleStopClick}>PASS</Button>
       </Menu>
     </div>
   );
