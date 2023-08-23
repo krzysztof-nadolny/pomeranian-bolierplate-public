@@ -1,0 +1,115 @@
+.todo__wrapper {
+  font-size: 62.5%;
+}
+
+.todo__wrapper p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.todo__record svg {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+.todo__record {
+  width: 600px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  padding: 16px;
+  border: 1px solid #c8cbd1;
+  border-radius: 20px;
+  margin: 20px 0;
+  background-color: #ffffff;
+}
+
+.todo__record button {
+  padding: none;
+  border: none;
+  margin: none;
+  background-color: none;
+}
+
+.todo__record--left {
+}
+
+.todo__record--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.todo__record h3 {
+  font-size: 1.6rem;
+}
+
+.todo__record--author {
+  margin: 20px 0;
+}
+
+.todo__record p {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.todo__form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+.todo__form h3 {
+  font-size: 1.6rem;
+}
+
+.todo__form input {
+  /* padding: 10px 5px; */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  height: 40px;
+}
+
+.todo__form .todo__form--inputnote {
+  /* position: absolute; */
+
+  padding-bottom: 60px;
+
+  height: 80px;
+}
+
+.todo__form button {
+  width: 150px;
+  height: 50px;
+  padding: 20px 36px;
+  margin: 20px 0;
+  border: 1px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.todo__form .btn-add {
+  background-color: #fe3756;
+}
+
+.isDone {
+  background-color: #6b7280;
+}
+
+.todo__wrapper .btn-add-new {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  padding: 20px 36px;
+  border: 1px;
+  border-radius: 8px;
+  background-color: #fe3756;
+}

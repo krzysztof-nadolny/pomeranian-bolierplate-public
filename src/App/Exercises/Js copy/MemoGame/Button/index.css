@@ -1,0 +1,18 @@
+.button__base {
+  width: 200px;
+  font-family: inherit;
+  background: #23213d;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 36px;
+  font-size: 18px;
+  line-height: 31px;
+  font-weight: 500;
+  margin: 16px;
+}
+
+.button__base.button--active {
+  background: #fe3756;
+}
+
