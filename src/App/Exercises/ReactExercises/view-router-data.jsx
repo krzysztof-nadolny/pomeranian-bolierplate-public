@@ -6,6 +6,10 @@ import { routerMetaData as IfStatementsMetaData } from './IfStatements/router-da
 import { IfStatementsMoreOrLessMetaData } from './IfStatementsMoreOrLess/router-data';
 import { GuessMeMetaData } from './GuessMe/router-data';
 import { toDoMetaData } from './ToDoWithServer/router-data';
+import { reactUseRefMetaData } from './ReactUseRef/router-data';
+import { submitFormMetaData } from './SubmitForm/router-data';
+import { librariesValidationForm } from './LibrariesForm/router-data';
+
 
 export const blockRouterMetaData = [
   SubRouteExampleMetaData,
@@ -13,5 +17,8 @@ export const blockRouterMetaData = [
   IfStatementsMoreOrLessMetaData,
   GuessMeMetaData,
   toDoMetaData,
+  reactUseRefMetaData,
+  submitFormMetaData,
+  librariesValidationForm,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

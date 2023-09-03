@@ -11,7 +11,8 @@ h3 {
 }
 
 .todo__record svg {
-  background-color: transparent;
+  background-color: #fff;
+  stroke: #fff;
   border: none;
   width: 30px;
   height: 30px;
