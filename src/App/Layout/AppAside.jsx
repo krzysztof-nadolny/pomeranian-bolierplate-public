@@ -16,15 +16,15 @@ export function AppAside() {
   return (
     <aside>
       <ul>
-        <li style={{textDecoration: 'none'}}>
-          <NavLink  to="dashboard" className="aside-row">
+        <li style={{ textDecoration: 'none' }}>
+          <NavLink to="dashboard" className="aside-row">
             <div className="svg">
               <HouseIcon />
             </div>
-            <h5 style={{textDecoration: 'none'}}>Dashboard</h5>
+            <h5 style={{ textDecoration: 'none' }}>Dashboard</h5>
           </NavLink>
-          </li>
-        <li style={{textDecoration: 'none'}}>
+        </li>
+        <li style={{ textDecoration: 'none' }}>
           <NavLink to="cv" className="aside-row">
             <div className="svg">
               <PersonalCardIcon />
@@ -32,15 +32,15 @@ export function AppAside() {
             <h5>Moje CV</h5>
           </NavLink>
         </li>
-        <li style={{textDecoration: 'none'}}>
-          <NavLink  to="bloki" className="aside-row" >
+        <li style={{ textDecoration: 'none' }}>
+          <NavLink to="bloki" className="aside-row">
             <div className="svg">
               <BlokiIcon />
             </div>
             <h5>Bloki</h5>
           </NavLink>
         </li>
-        <li style={{textDecoration: 'none'}}>
+        <li style={{ textDecoration: 'none' }}>
           <NavLink to="exercises" className="aside-row">
             <div className="svg">
               <EditIcon />
@@ -48,7 +48,7 @@ export function AppAside() {
             <h5>Ćwiczenia</h5>
           </NavLink>
         </li>
-        <li style={{textDecoration: 'none'}}>
+        <li style={{ textDecoration: 'none' }}>
           <NavLink to="calendar" className="aside-row">
             <div className="svg">
               <CalendarIcon />
@@ -56,7 +56,7 @@ export function AppAside() {
             <h5>Kalendarz</h5>
           </NavLink>
         </li>
-        <li style={{textDecoration: 'none'}}>
+        <li style={{ textDecoration: 'none' }}>
           <NavLink to="blog" className="aside-row">
             <div className="svg">
               <BookIcon />
@@ -64,7 +64,7 @@ export function AppAside() {
             <h5>Blog</h5>
           </NavLink>
         </li>
-        <li style={{textDecoration: 'none'}}>
+        <li style={{ textDecoration: 'none' }}>
           <NavLink to="faq" className="aside-row">
             <div className="svg">
               <FaqIcon />

@@ -17,6 +17,18 @@ import { blockRouterMetaData as ExercisejsfunctionsextendedMetaData } from './Ex
 import { blockRouterMetaData as dateAndTimeRouterMetaData } from './DateAndTime/router-data';
 import { blockRouterMetaData as dateAndTimeExerciseRouterMetaData } from './TimeExercise/router-data';
 import { blockRouterMetaData as HitTheMoleRouterMetaData } from './HitTheMole/router-data';
+import { blockRouterMetaData as memoRouterMetaData } from './MemoGame/router-data';
+import { blockRouterMetaData as OopTheoryRouterMetaData } from './OOP-theory/router-data';
+import { blockRouterMetaData as OopExerciseRouterMetaData } from './OOP-exercise/router-data';
+import { blockRouterMetaData as OopExercise2RouterMetaData } from './OOP-exercise2/router-data';
+import { blockRouterMetaData as TryCatchPrototypeRouterMetaData } from './TryCatchPrototype/router-data';
+import { blockRouterMetaData as jsonXMLStorageRouterMetaData } from './JsonXMLStorage/router-data';
+import { blockRouterMetaData as savedInputExampleMetaData } from './SavedInputExample/router-data';
+import { blockRouterMetaData as promisesMetaData } from './Promises/router-data';
+import { blockRouterMetaData as promisesExerciseMetaData } from './PromisesExercise/router-data';
+import { blockRouterMetaData as promiseMethodsTrainingMetaData } from './PromiseMethodsTraining/router-data';
+import { blockRouterMetaData as dogAPIMetaData } from './DogAPI/router-data';
+import { blockRouterMetaData as localDevAndFetchMetaData } from './LocalDevAndFetch/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -36,5 +48,17 @@ export const blockRouterMetaData = [
   dateAndTimeRouterMetaData,
   dateAndTimeExerciseRouterMetaData,
   HitTheMoleRouterMetaData,
+  memoRouterMetaData,
+  OopTheoryRouterMetaData,
+  OopExerciseRouterMetaData,
+  OopExercise2RouterMetaData,
+  TryCatchPrototypeRouterMetaData,
+  jsonXMLStorageRouterMetaData,
+  savedInputExampleMetaData,
+  promisesMetaData,
+  promisesExerciseMetaData,
+  promiseMethodsTrainingMetaData,
+  dogAPIMetaData,
+  localDevAndFetchMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

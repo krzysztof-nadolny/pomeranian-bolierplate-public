@@ -7,7 +7,7 @@ export function FirebaseIcon({ className = '' }) {
       viewBox="0 0 64 64"
       fill="none"
     >
-      <g clip-path="url(#clip0_5298_14622)">
+      <g clipPath="url(#clip0_5298_14622)">
         <path
           d="M14.4852 0.664063C15.2514 0.386672 16.1088 0.577532 16.685 1.15371L25.4154 9.88412C25.3655 9.96022 25.3199 10.0405 25.2792 10.1247L9.63596 42.49L14.4852 0.664063Z"
           fill="black"
